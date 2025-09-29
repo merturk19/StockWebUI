@@ -53,7 +53,7 @@ export default function StockPage() {
       <div className="card">
         <h1>Stock Items</h1>
         <div className="toolbar">
-          <span className="pill">API base: {import.meta.env.VITE_API_BASE}</span>
+          {/* <span className="pill">API base: {import.meta.env.VITE_API_BASE}</span> */}
           {loading ? <span className="status">Loading…</span> : null}
           {error ? <span className="status">Error: {error}</span> : null}
         </div>

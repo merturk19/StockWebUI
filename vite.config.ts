@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: 'localhost',
-    port: 5178,
+    port: 5179,
     strictPort: true,
     // If you prefer a proxy instead of CORS + absolute URLs, uncomment:
     // proxy: {
@@ -18,7 +18,7 @@ export default defineConfig({
   },
   preview: {
     host: 'localhost',
-    port: 5178,
+    port: 5179,
     strictPort: true,
   },
 });
